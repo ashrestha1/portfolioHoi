@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0366acc67acee686377a45756edf83d9",
+    "revision": "097f86d056cf036be809e06d01fd0f02",
     "url": "/portfolioHoi/index.html"
   },
   {
-    "revision": "642e2b85586262797bb8",
+    "revision": "8bfbb625dc05f45ed3c5",
     "url": "/portfolioHoi/static/css/2.9497e657.chunk.css"
   },
   {
-    "revision": "a96e506463edada1b35f",
+    "revision": "3acb3f587c88d004801d",
     "url": "/portfolioHoi/static/css/main.7a9a1dcd.chunk.css"
   },
   {
-    "revision": "642e2b85586262797bb8",
-    "url": "/portfolioHoi/static/js/2.67cd2cd9.chunk.js"
+    "revision": "8bfbb625dc05f45ed3c5",
+    "url": "/portfolioHoi/static/js/2.faeea1b4.chunk.js"
   },
   {
     "revision": "efc0bc89bcf702a3aa1127d8ad15fc2e",
-    "url": "/portfolioHoi/static/js/2.67cd2cd9.chunk.js.LICENSE.txt"
+    "url": "/portfolioHoi/static/js/2.faeea1b4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a96e506463edada1b35f",
-    "url": "/portfolioHoi/static/js/main.052a1f2c.chunk.js"
+    "revision": "3acb3f587c88d004801d",
+    "url": "/portfolioHoi/static/js/main.13771744.chunk.js"
   },
   {
     "revision": "8ec7930fca601f9d0c76",
