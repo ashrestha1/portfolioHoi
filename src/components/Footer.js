@@ -1,11 +1,12 @@
 import React, { Component } from "react";
+import './hover.css'
 
 class Footer extends Component {
   render() {
     if (this.props.sharedBasicInfo) {
       var networks = this.props.sharedBasicInfo.social.map(function (network) {
         return (
-          <span key={network.name} className="m-4">
+          <span key={network.name} className="m-4 hvr-bob">
             <a href={network.url} target="_blank" rel="noopener noreferrer">
               <i className={network.class}></i>
             </a>
@@ -20,7 +21,7 @@ class Footer extends Component {
           <div className="social-links">{networks}</div>
 
           <div className="copyright py-4 text-center">
-            <div className="container">
+            <div className="container hvr-grow">
               <small>
                 Copyright &copy;{" "}
                 {this.props.sharedBasicInfo

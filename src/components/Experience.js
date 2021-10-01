@@ -10,6 +10,7 @@ import oriiIcon from '../experienceIcon/orii.png'
 import { ReactComponent as SchoolIcon } from './school.svg';
 import { ReactComponent as OrigamiIcon } from './engineer.svg';
 import './experience.styles.css';
+import './hover.css'
 class Experience extends Component {
   render() {
     if (this.props.resumeExperience && this.props.resumeBasicInfo) {
@@ -27,7 +28,7 @@ class Experience extends Component {
         });
         var tech = technologies.map((technology, i) => {
           return (
-            <Badge pill className="experience-badge mr-2 mb-2" key={i}>
+            <Badge pill className="experience-badge mr-2 mb-2 hvr-buzz-out" key={i}>
               {technology}
             </Badge>
           );
@@ -60,8 +61,9 @@ class Experience extends Component {
             icon={icons}
             key={i}
           >
+
             <div style={{ textAlign: "center", marginBottom: "10px" }}>
-              <img src={iconImage} className="img-resize" alt="myLogo" />
+              <img src={iconImage} className="img-resize hvr-wobble-vertical" alt="myLogo" />
             </div>
 
             <h3
@@ -87,7 +89,7 @@ class Experience extends Component {
         <div className="col-md-12 mx-auto">
           <div className="col-md-12">
             <h1 className="section-title" style={{ color: "black" }}>
-              <span className="text-black" style={{ textAlign: "center" }}>
+              <span className="text-black hvr-buzz-out" style={{ textAlign: "center" }}>
                 {sectionName}
               </span>
             </h1>

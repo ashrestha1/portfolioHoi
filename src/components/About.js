@@ -13,27 +13,27 @@ class About extends Component {
     }
 
     return (
-      <section id="about">
+      <section id="about" className="hvr-grow-shadow">
         <div className="col-md-12">
           <h1 style={{ color: "black" }}>
-            <span>{sectionName}</span>
+            <span className="hvr-buzz-out">{sectionName}</span>
           </h1>
           <div className="row center mx-auto mb-5">
             <div className="col-md-5 mb-5 center">
               <div className="polaroid" >
-                <span style={{ cursor: "auto" }}>
+                <span className="hvr-rotate" style={{ cursor: "auto" }}>
                   <img
                     height="300px"
-                    style={{maxWidth:'800px'}}
+                    style={{ maxWidth: '800px' }}
                     src={profilepic}
                     alt="Avatar placeholder"
                   />
-             
+
                 </span>
               </div>
             </div>
 
-            <div className="col-md-7 center">
+            <div className="col-md-7 center hvr-bubble-left">
               <div className="col-md-10">
                 <div className="card">
                   <div className="card-header">
@@ -68,9 +68,9 @@ class About extends Component {
                     <br />
                     <br />
                     {about}
-                    <br/>
+                    <br />
                     <a
-                    
+
                       target="blank"
                       class="text-decoration-none button1 hvr-float-shadow"
                     >
