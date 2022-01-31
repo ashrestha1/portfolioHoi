@@ -72,7 +72,7 @@ class About extends Component {
                     <a
 
                       target="blank"
-                      class="text-decoration-none button1 hvr-float-shadow"
+                      className="text-decoration-none button1 hvr-float-shadow"
                     >
                       View my resume
                     </a>

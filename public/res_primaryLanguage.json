@@ -1,7 +1,7 @@
 {
   "basic_info": {
     "description_header": "Hi",
-    "description": "👋 I'm Mary Siu.  I coded this website myself, I am a HKUST 4th Year student! I aim to bla bla bla I love apple pie and I LOVE AYU I LOVE AYU 💜 AND I WILL TWIST AAYUSH NIPPLES WHEN I SEE HIM, AND HOLD AYU HANDS EVERY NIGHT 💜💜💜",
+    "description": "👋 I'm Mary Siu.  I cdsdsdoded this website myself, I am a HKUST 4th Year student! I aim to bla bla bla I love apple pie and I LOVE AYU I LOVE AYU 💜 AND I WILL TWIST AAYUSH NIPPLES WHEN I SEE HIM, AND HOLD AYU HANDS EVERY NIGHT 💜💜💜",
     "section_name": {
       "about": "About me",
       "projects": "Projects (Click the Photos)",
@@ -11,94 +11,83 @@
   },
   "projects": [
     {
-      "title": "Animal Shelter",
+      "title": "Work Experience",
+      "startDate": "-2021",
+      "description": "Gallery of my Work Experience",
+      "images": [
+        "images/portfolio/WorkExperience/1.jpeg",
+        "images/portfolio/WorkExperience/2.jpeg",
+        "images/portfolio/Project/1.jpeg"
+      ],
+      "technologies": []
+    },
+    {
+      "title": "Extra-Curricular",
       "startDate": "2020",
-      "description": "PABLO PABLO HE BITE PPL HAND WATCH OUT aND HE LOVES Banana",
-      "images": [
-        "images/portfolio/animal-shelter/pablo1.jpg",
-        "images/portfolio/animal-shelter/pablo2.jpg"
-      ],
-      "url": "",
-      "technologies": [
-        {
-          "class": "devicon-angularjs-plain",
-          "name": "Angular"
-        },
-        {
-          "class": "devicon-typescript-plain",
-          "name": "TypeScript"
-        },
-        {
-          "class": "devicon-csharp-plain",
-          "name": "C#"
-        }
-      ]
-    },
-    {
-      "title": "FOODIE",
-      "startDate": "2018",
-      "description": "I LOVE FOOD I LOVE TO EAT DIFF KIND OF FOOD FFROM JAP TO KOREAN HEHEHEHEHEHEHEHHEHEHE HEHEHEHEH RECENTLY",
-      "images": [
-        "images/portfolio/photography/p1.jpg",
-        "images/portfolio/photography/p2.jpg"
-      ],
-      "url": "https://github.com",
-      "technologies": [
-        {
-          "class": "devicon-react-original",
-          "name": "React"
-        },
-        {
-          "class": "devicon-javascript-plain",
-          "name": "JavaScript"
-        }
-      ]
-    },
-    {
-      "title": "Brown MAN",
-      "startDate": "2015",
-      "description": "Before and after Differin and moisturizer GYAAA DYAAAAM IM A BEAST",
-      "images": [
-        "images/portfolio/adventure/p1.jpg",
-        "images/portfolio/adventure/p2.jpg"
-      ],
-      "url": "https://github.com",
-      "technologies": [
-        {
-          "class": "devicon-angularjs-plain",
-          "name": "Angular"
-        },
-        {
-          "class": "devicon-typescript-plain",
-          "name": "TypeScript"
-        },
-        {
-          "class": "devicon-csharp-plain",
-          "name": "C#"
-        }
-      ]
+      "description": "Winter",
+      "images": ["images/portfolio/Winter/1.jpeg"],
+      "technologies": []
     }
   ],
   "experience": [
     {
-      "company": "International Baccalaureate - 45 points",
-      "title": "Island School",
-      "years": "10.2019 - present",
-      "mainTech": ["Education"],
+      "company": "Meiyume",
+      "title": "Engineering & Innovation Intern",
+      "years": "06.2021 - 08.2021",
       "technologies": [
         "Horizon Week",
         "Acrobatics SL",
         "Math HL",
         "Gardening SL",
         "Poo poo Pee"
-      ]
+      ],
+      "url": "https://meiyume.com/"
+    },
+    {
+      "company": "HandyRehab (Zunosaki)",
+      "title": "Electronics Engineer Intern",
+      "years": "12.2020 - 01.2021",
+      "technologies": [
+        "Horizon Week",
+        "Acrobatics SL",
+        "Math HL",
+        "Gardening SL",
+        "Poo poo Pee"
+      ],
+      "url": "https://handyrehab.com/"
+    },
+    {
+      "company": "Sportopia Limited",
+      "title": "Hardware Analyst",
+      "years": "08.2020 - 12.2020",
+      "technologies": [
+        "Horizon Week",
+        "Acrobatics SL",
+        "Math HL",
+        "Gardening SL",
+        "Poo poo Pee"
+      ],
+      "url": "https://sportopia.io/"
     },
     {
       "company": "Electrical Engineer - Intern",
       "title": "Origami Labs",
-      "years": "01.2018 - 09.2019",
-      "mainTech": ["Education"],
-      "technologies": ["Striking", "Pushing", "Attacking", "Spitting"]
+      "years": "06.2019 - 08.2019",
+      "technologies": ["Striking", "Pushing", "Attacking", "Spitting"],
+      "url": "https://orii.io/"
+    },
+    {
+      "company": "International Baccalaureate - 45 points",
+      "title": "Island School",
+      "years": "10.2019 - present",
+      "technologies": [
+        "Horizon Week",
+        "Acrobatics SL",
+        "Math HL",
+        "Gardening SL",
+        "Poo poo Pee"
+      ],
+      "url": "https://island.edu.hk/"
     }
   ]
 }

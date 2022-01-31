@@ -7,25 +7,23 @@ import "react-vertical-timeline-component/style.min.css";
 import Badge from "react-bootstrap/Badge";
 import islandSchoolIcon from '../experienceIcon/islandschool.png'
 import oriiIcon from '../experienceIcon/orii.png'
+import meiyume from '../experienceIcon/meiyume.png'
+import handyRehab from '../experienceIcon/handyRehab.png'
+import sportopia from '../experienceIcon/sportopia.png'
 import { ReactComponent as SchoolIcon } from './school.svg';
+import { ReactComponent as MeiyumeIcon } from './meiyumeLipstick.svg';
 import { ReactComponent as OrigamiIcon } from './engineer.svg';
+import { ReactComponent as HandyRehabIcon } from './handyRehabIcon.svg';
+import { ReactComponent as SportopiaIcon } from './sportopiaIcon.svg';
 import './experience.styles.css';
-import './hover.css'
+import './hover.css';
 class Experience extends Component {
   render() {
     if (this.props.resumeExperience && this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.experience;
       var work = this.props.resumeExperience.map(function (work, i) {
         const technologies = work.technologies;
-        const mainTechnologies = work.mainTech;
 
-        var mainTech = mainTechnologies.map((technology, i) => {
-          return (
-            <Badge pill className="main-badge mr-2 mb-2" key={i}>
-              {technology}
-            </Badge>
-          );
-        });
         var tech = technologies.map((technology, i) => {
           return (
             <Badge pill className="experience-badge mr-2 mb-2 hvr-buzz-out" key={i}>
@@ -38,10 +36,22 @@ class Experience extends Component {
         var icons
         switch (i) {
           case 0:
+            iconImage = meiyume;
+            icons = <MeiyumeIcon />;
+            break
+          case 1:
+            iconImage = handyRehab;
+            icons = <HandyRehabIcon />;
+            break
+          case 2:
+            iconImage = sportopia;
+            icons = <SportopiaIcon />;
+            break
+          case 4:
             iconImage = islandSchoolIcon;
             icons = <SchoolIcon />;
             break
-          case 1:
+          case 3:
             iconImage = oriiIcon;
             icons = <OrigamiIcon />;
             break
@@ -61,25 +71,27 @@ class Experience extends Component {
             icon={icons}
             key={i}
           >
-
-            <div style={{ textAlign: "center", marginBottom: "10px" }}>
-              <img src={iconImage} className="img-resize hvr-wobble-vertical" alt="myLogo" />
-            </div>
-
+            <a target="_blank" href={work.url}>
+              <div style={{ textAlign: "center", marginBottom: "10px" }}>
+                <img href src={iconImage} className="img-resize hvr-wobble-vertical" alt="myLogo" />
+              </div>
+            </a>
             <h3
               className="title"
               style={{ textAlign: "center" }}
             >
-              {work.title}
+              {work.company}
             </h3>
             <h4
               className="subTitle"
               style={{ textAlign: "center" }}
             >
-              {work.company}
+              {work.title}
             </h4>
             <div style={{ textAlign: "center", marginTop: "15px" }}>{tech}</div>
+
           </VerticalTimelineElement>
+
         );
       });
     }

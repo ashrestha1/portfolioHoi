@@ -8,7 +8,7 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import MyNavbar from "./components/my-navbar/my-navbar.component";
 import Slide from 'react-reveal/Slide';
-import Flip from 'react-reveal/Slide';
+
 class App extends Component {
 
   constructor(props) {
@@ -53,6 +53,7 @@ class App extends Component {
   }
 
   loadSharedData() {
+
     $.ajax({
       url: `portfolio_shared_data.json`,
       dataType: "json",
@@ -73,12 +74,10 @@ class App extends Component {
         <div style={{ marginBottom: 30 }}>
           <MyNavbar />
         </div>
-        <Flip left>
-          <About
-            resumeBasicInfo={this.state.resumeData.basic_info}
-            sharedBasicInfo={this.state.sharedData.basic_info}
-          />
-        </Flip>
+        <About
+          resumeBasicInfo={this.state.resumeData.basic_info}
+          sharedBasicInfo={this.state.sharedData.basic_info}
+        />
         <Slide bottom duration={500}>
           <div id="experience" />
 
