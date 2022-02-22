@@ -1,19 +1,21 @@
 {
   "files": {
     "main.css": "/portfolioHoi/static/css/main.b4c4e056.chunk.css",
-    "main.js": "/portfolioHoi/static/js/main.83a0ea40.chunk.js",
-    "main.js.map": "/portfolioHoi/static/js/main.83a0ea40.chunk.js.map",
+    "main.js": "/portfolioHoi/static/js/main.b0d0a67e.chunk.js",
+    "main.js.map": "/portfolioHoi/static/js/main.b0d0a67e.chunk.js.map",
     "runtime-main.js": "/portfolioHoi/static/js/runtime-main.9fc639fb.js",
     "runtime-main.js.map": "/portfolioHoi/static/js/runtime-main.9fc639fb.js.map",
     "static/css/2.9c389199.chunk.css": "/portfolioHoi/static/css/2.9c389199.chunk.css",
-    "static/js/2.bb292f98.chunk.js": "/portfolioHoi/static/js/2.bb292f98.chunk.js",
-    "static/js/2.bb292f98.chunk.js.map": "/portfolioHoi/static/js/2.bb292f98.chunk.js.map",
+    "static/js/2.e8169e86.chunk.js": "/portfolioHoi/static/js/2.e8169e86.chunk.js",
+    "static/js/2.e8169e86.chunk.js.map": "/portfolioHoi/static/js/2.e8169e86.chunk.js.map",
     "index.html": "/portfolioHoi/index.html",
-    "precache-manifest.5d233d14373ef19e604d468207769cb7.js": "/portfolioHoi/precache-manifest.5d233d14373ef19e604d468207769cb7.js",
+    "precache-manifest.ab6d7257d8113127eea79e996ba59a38.js": "/portfolioHoi/precache-manifest.ab6d7257d8113127eea79e996ba59a38.js",
     "service-worker.js": "/portfolioHoi/service-worker.js",
     "static/css/2.9c389199.chunk.css.map": "/portfolioHoi/static/css/2.9c389199.chunk.css.map",
     "static/css/main.b4c4e056.chunk.css.map": "/portfolioHoi/static/css/main.b4c4e056.chunk.css.map",
-    "static/js/2.bb292f98.chunk.js.LICENSE.txt": "/portfolioHoi/static/js/2.bb292f98.chunk.js.LICENSE.txt",
+    "static/js/2.e8169e86.chunk.js.LICENSE.txt": "/portfolioHoi/static/js/2.e8169e86.chunk.js.LICENSE.txt",
+    "static/media/SIUHoiWa_CV.pdf": "/portfolioHoi/static/media/SIUHoiWa_CV.34899d8f.pdf",
+    "static/media/UST.png": "/portfolioHoi/static/media/UST.7d37cfd1.png",
     "static/media/engineer.0d872a1e.svg": "/portfolioHoi/static/media/engineer.0d872a1e.svg",
     "static/media/handyRehabIcon.e2e1f6b8.svg": "/portfolioHoi/static/media/handyRehabIcon.e2e1f6b8.svg",
     "static/media/matlab.8683213c.svg": "/portfolioHoi/static/media/matlab.8683213c.svg",
@@ -26,8 +28,8 @@
   "entrypoints": [
     "static/js/runtime-main.9fc639fb.js",
     "static/css/2.9c389199.chunk.css",
-    "static/js/2.bb292f98.chunk.js",
+    "static/js/2.e8169e86.chunk.js",
     "static/css/main.b4c4e056.chunk.css",
-    "static/js/main.83a0ea40.chunk.js"
+    "static/js/main.b0d0a67e.chunk.js"
   ]
 }

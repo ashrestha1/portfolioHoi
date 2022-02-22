@@ -1,7 +1,7 @@
 {
   "basic_info": {
-    "description_header": "Hi",
-    "description": "👋 I'm Mary Siu.  I cdsdsdoded this website myself, I am a HKUST 4th Year student! I aim to bla bla bla I love apple pie and I LOVE AYU I LOVE AYU 💜 AND I WILL TWIST AAYUSH NIPPLES WHEN I SEE HIM, AND HOLD AYU HANDS EVERY NIGHT 💜💜💜",
+    "description_header": "👋 Hi, I'm Mary and welcome to my website",
+    "description": "This page shows a brief summary of my previous work experiences to get to know me a little better. Hope you enjoy!",
     "section_name": {
       "about": "About me",
       "projects": "Projects (Click the Photos)",
@@ -12,11 +12,12 @@
   "projects": [
     {
       "title": "Work Experience",
-      "startDate": "-2021",
+      "startDate": "2021",
       "description": "Gallery of my Work Experience",
       "images": [
         "images/portfolio/WorkExperience/1.jpeg",
         "images/portfolio/WorkExperience/2.jpeg",
+        "images/portfolio/WorkExperience/3.jpeg",
         "images/portfolio/Project/1.jpeg"
       ],
       "technologies": []
@@ -24,7 +25,7 @@
     {
       "title": "Extra-Curricular",
       "startDate": "2020",
-      "description": "Winter",
+      "description": "Selected to lead an epoxy workshop for a cross-cultural engineering exchange in Korea (SKKU)",
       "images": ["images/portfolio/Winter/1.jpeg"],
       "technologies": []
     }
@@ -34,12 +35,16 @@
       "company": "Meiyume",
       "title": "Engineering & Innovation Intern",
       "years": "06.2021 - 08.2021",
+      "descriptions": [
+        "Conducted market research on color cosmetics and identified opportunities within the market",
+        "Analyzed and researched patents using Orbit to explore different applications of technology",
+        "Implemented concept prototyping using SolidWorks and Arduino to control and calibrate the device"
+      ],
       "technologies": [
-        "Horizon Week",
-        "Acrobatics SL",
-        "Math HL",
-        "Gardening SL",
-        "Poo poo Pee"
+        "Rapid Prototype",
+        "Solidworks",
+        "Arduino",
+        "Patent research"
       ],
       "url": "https://meiyume.com/"
     },
@@ -47,12 +52,17 @@
       "company": "HandyRehab (Zunosaki)",
       "title": "Electronics Engineer Intern",
       "years": "12.2020 - 01.2021",
+      "descriptions": [
+        "Set up a working motor testing apparatus for factories in China using Arduino and ESP32 using an infrared sensor to record the revolutions per minute into Google Sheets and an SD card",
+        "Corresponded with the mechanical team to design and produce specialized parts",
+        "Trained in reverse-engineering existing products for research and development"
+      ],
       "technologies": [
-        "Horizon Week",
-        "Acrobatics SL",
-        "Math HL",
-        "Gardening SL",
-        "Poo poo Pee"
+        "Arduino",
+        "ESP32",
+        "Reverse-Engineering",
+        "Soldering",
+        "Product Production"
       ],
       "url": "https://handyrehab.com/"
     },
@@ -60,12 +70,16 @@
       "company": "Sportopia Limited",
       "title": "Hardware Analyst",
       "years": "08.2020 - 12.2020",
+      "descriptions": [
+        "Arranged demo venues and products for clients and took charge of trouble-shooting with distributors",
+        "Participated in meetings with potential partners and clients to distribute a range of exergaming products",
+        "Communicated with design and marketing team to compose proposals for different clients (Chopard, MTR)"
+      ],
       "technologies": [
-        "Horizon Week",
-        "Acrobatics SL",
-        "Math HL",
-        "Gardening SL",
-        "Poo poo Pee"
+        "Client Meetings",
+        "Proposals",
+        "Troubleshoot Products",
+        "Excel VBA"
       ],
       "url": "https://sportopia.io/"
     },
@@ -73,21 +87,39 @@
       "company": "Electrical Engineer - Intern",
       "title": "Origami Labs",
       "years": "06.2019 - 08.2019",
-      "technologies": ["Striking", "Pushing", "Attacking", "Spitting"],
+      "descriptions": [
+        "Designed and 3D modeled a charging case for a product prototype using Fusion360",
+        "Assisted in producing, crafting, and testing prototypes to be demonstrated during trials with potential buyers under strict deadlines",
+        "Explored potential features of developing products using Raspberry Pi"
+      ],
+      "technologies": [
+        "Fusion360",
+        "3D Modelling",
+        "Prototype Production",
+        "R&D"
+      ],
       "url": "https://orii.io/"
     },
     {
-      "company": "International Baccalaureate - 45 points",
-      "title": "Island School",
-      "years": "10.2019 - present",
-      "technologies": [
-        "Horizon Week",
-        "Acrobatics SL",
-        "Math HL",
-        "Gardening SL",
-        "Poo poo Pee"
+      "company": "Hong Kong University of Science and Technology",
+      "title": "BEng in Electronic Engineering",
+      "years": "09.2018 - 06.2022",
+      "descriptions": [
+        "Assisted in a number of different student-initiated projects within the lab and the management of CNC foam cutter, 3D printer, and table saw wood cutter whilst ensuring safety",
+        "Led teaching workshops held in the lab for secondary school students and first-year engineering students",
+        "Selected to lead an epoxy workshop for a cross-cultural engineering exchange in Korea (SKKU)",
+        "Engineering Student Ambassador - Acted as a campus representative, spoke in front of large audiences, made presentations to Staff as well as students",
+        "School of Engineering Peer Mentor  - Conducted student orientations and hosted events to ensure a positive attitude for the engineering school and offer guidance for first-year students",
+        "HKUST Hackathon (hardUST) - Collaborated with students of different engineering disciplines to rapid prototype a working simulation of pizza-making to enhance efficiency for Pizza Hut"
       ],
-      "url": "https://island.edu.hk/"
+      "technologies": [
+        "Lab Assistant",
+        "Lab Management",
+        "Workshops",
+        "Leadership",
+        "Hackathon"
+      ],
+      "url": "https://hkust.edu.hk/"
     }
   ]
 }
